@@ -95,17 +95,19 @@ h4 {
 }
 
 h1, h2, h3, h4 {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0.5rem auto; 
   color: #12FF32;
   text-shadow: 0 0 10px #12FF32;
-  margin-bottom: 0.5rem;
   border-bottom: 2px solid #12FF32;
 }
 
 
 main > p:first-of-type {
-  display: inline-block;
-  margin-bottom: 1rem;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 1rem auto;
   padding-bottom: 0.3rem;
   border-bottom: 1px solid #32FFC7;
   font-style: italic;
