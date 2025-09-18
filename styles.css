@@ -117,7 +117,10 @@ h1, h2, h3, h4, p {
   display: block !important;
 }
 
-.header-sub p {
+.header-sub {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 1rem;
   font-style: italic;
   color: #32FFC7; 
 }
