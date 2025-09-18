@@ -116,3 +116,8 @@ main > p:first-of-type {
 h1, h2, h3, h4, p {
   display: block !important;
 }
+
+.header-sub p {
+  font-style: italic;
+  color: #32FFC7; 
+}
